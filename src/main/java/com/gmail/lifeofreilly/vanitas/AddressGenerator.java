@@ -13,7 +13,7 @@ import java.util.stream.LongStream;
 /**
  * A Bitcoin vanity address generator that leverages the Java 8 streams API.
  */
-class AddressGenerator {
+public class AddressGenerator {
     private static final Logger log = Logger.getLogger(AddressGenerator.class);
     private static final int BTC_ADDRESS_MAX_LENGTH = 35;
     private final NetworkParameters netParams;
